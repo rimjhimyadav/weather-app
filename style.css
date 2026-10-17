@@ -1,0 +1,155 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #56ccf2, #2f80ed);
+  min-height: 100vh;
+  color: white;
+  margin: 0;
+  padding: 40px 15px;
+}
+
+.container {
+  max-width: 420px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 25px;
+  border-radius: 20px;
+}
+
+h1 {
+  margin: 0 0 15px 0;
+  font-weight: 600;
+}
+
+.search-box {
+  display: flex;
+  background-color: white;
+  border-radius: 30px;
+  padding: 5px;
+}
+
+.search-box input {
+  flex: 1;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 8px 15px;
+  font-size: 15px;
+  font-family: inherit;
+  border-radius: 30px;
+}
+
+.search-box button {
+  background-color: #ff9f43;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 8px 20px;
+  font-family: inherit;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background-color: #f08a24;
+}
+
+#location-btn {
+  display: block;
+  margin: 12px auto 0 auto;
+  background: none;
+  border: none;
+  color: white;
+  font-family: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#message {
+  text-align: center;
+}
+
+#message.error {
+  color: #ffe066;
+}
+
+.hidden {
+  display: none;
+}
+
+#city-name {
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.current {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+#icon {
+  font-size: 70px;
+}
+
+#temp {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+#description {
+  text-align: center;
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.details p {
+  margin: 3px 0;
+}
+
+.label {
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+h3 {
+  font-weight: 500;
+}
+
+.day {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 15px;
+  margin-bottom: 8px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+}
+
+.day p {
+  margin: 0;
+  width: 33%;
+}
+
+.day-icon {
+  font-size: 22px;
+  text-align: center;
+}
+
+.day-temp {
+  text-align: right;
+}
+
+.day-min {
+  opacity: 0.7;
+}
